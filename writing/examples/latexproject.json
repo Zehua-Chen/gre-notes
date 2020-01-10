@@ -2,7 +2,7 @@
   "latex": "xelatex",
   "entry": "index.tex",
   "includes": [
-    "config/",
-    "areas/"
+    "areas/",
+    "../../shared/config"
   ]
 }

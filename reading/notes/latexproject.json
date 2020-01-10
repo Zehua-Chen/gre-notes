@@ -2,7 +2,7 @@
   "latex": "xelatex",
   "entry": "index.tex",
   "includes": [
-    "config/",
-    "chapters/"
+    "chapters/",
+    "../../shared/config"
   ]
 }
