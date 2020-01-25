@@ -1,0 +1,6 @@
+{
+  "latex": "xelatex",
+  "includes": [
+    "../../../shared/config/"
+  ]
+}
