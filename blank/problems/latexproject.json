@@ -4,6 +4,6 @@
   "entry": "index.tex",
   "includes": [
     "index.tex",
-    "chapters/"
+    "sources/"
   ]
 }
