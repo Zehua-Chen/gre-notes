@@ -3,7 +3,6 @@
   "bin": "bin",
   "entry": "index.tex",
   "includes": [
-    "index.tex",
     "sources/"
   ]
 }
