@@ -3,6 +3,6 @@
   "bin": "bin",
   "entry": "index.tex",
   "includes": [
-    "chapters/"
+    "areas/"
   ]
 }
