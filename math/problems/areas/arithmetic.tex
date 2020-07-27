@@ -1,0 +1,105 @@
+\chapter{Arithmetic}
+
+\section{Q1}
+
+  A number is a palindrome if it can be written the same backwards and
+  forwards (6336 is an example of a palindrome). What number divides into every
+  4 digit palindrome?
+
+  \begin{enumerate}
+    \item 2
+    \item 3
+    \item 7
+    \item 11
+  \end{enumerate}
+
+  \subsection{解析}
+
+    \say{x divides into y}意思为\say{y被x整除}.
+
+    \begin{align*}
+      xyyx &= 1000x + 100y + 10y + x \\
+      &= 1001x + 110 y
+    \end{align*}
+
+    \textbf{答案: 11}
+
+\section{Q2}
+
+  x is an integer greater than 3
+
+  \begin{center}
+    Quantity A: The number of even factors of $ 2x $ \\
+    Quantity B: The number of odd factors of $ 3x $
+  \end{center}
+
+  \begin{enumerate}
+    \item Quantity A is greater.
+    \item Quantity B is greater.
+    \item The two quantities are equal
+    \item The relationship cannot be determined from the information given.
+  \end{enumerate}
+
+  \subsection{解析}
+
+    \begin{itemize}
+      \item \textbf{Ex.} $ x = 3 $, $ 6 = \left\{ 1, 6, 2, 3 \right\} $,
+      $ 9 = \left\{ 1, 9, 3 \right\} $
+      \item \textbf{Ex.} $ x = 2 $, $ 4 = \left\{ 1, 4, 2 \right\} $,
+      $ 6 6 = \left\{ 1, 6, 2, 3 \right\} $
+    \end{itemize}
+
+    带一个和\say{2, 3}一样的数为 $ x $
+
+\section{Q3}
+
+  If n and m are positive integers and m is a factor of 2 , what is the
+  greatest possible number of integers that can be equal to both
+  $ 3n $ and $ \frac{2^{6}}{m} $
+
+  \begin{enumerate}
+    \item 0
+    \item 1
+    \item 3
+    \item 4
+    \item 6
+  \end{enumerate}
+
+  \subsection{解析}
+
+    $ 1 $ 满足 $ \frac{2^{6}}{m} $, 但无法满足 $ 3n $. 所以选 $ 0 $
+
+\section{Q4}
+
+  \begin{center}
+    Quantity A: The number of distinct prime factors of $ 20^{6} $ \\
+    Quantity B: The number of distinct prime factors of $ 32^{10} $
+  \end{center}
+
+  \begin{enumerate}
+    \item Quantity A is greater
+    \item Quantity B is greater
+    \item The two quantities are equal.
+    \item The relationship cannot be determined from the information given.
+  \end{enumerate}
+
+  \subsection{解析}
+
+    \begin{align*}
+      20^{6} &= \left( 2 \times 2 \times 5 \right)^{6} \\
+      32^{10} &= \left( 2^{5} \right)^{10}
+    \end{align*}
+
+    由上可得, $ 20^{6} $ 有两个独一无二的质因数; $ 32^{10} $有一个独一无二的质因数;
+    选 A
+
+\section{Q5}
+
+  n is a positive integer, and k is the product of all integers from 1 to n
+  inclusive. If k is a multiple of 1440, then the smallest possible value of n
+  is
+
+  \subsection{解析}
+
+    1440的倍数 分解质因数为 $ 2^{5} \times 3^{2} \times 5 \times x $. $ 1...8 $
+    能凑齐$ 2^{5} \times 3^{2} \times 5 $
