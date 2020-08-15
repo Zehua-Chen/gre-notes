@@ -105,3 +105,143 @@
 
     1440的倍数 分解质因数为 $ 2^{5} \times 3^{2} \times 5 \times x $. $ 1...8 $
     能凑齐$ 2^{5} \times 3^{2} \times 5 $
+
+\section{Q6}
+
+  If $ a^{2} + b^{2} = c^{2} $ and $ a, b, c $ are all integers. Which of the
+  following CANNOT be the value of $ a + b + c $?
+
+  \begin{enumerate}
+    \item 2
+    \item 1
+    \item -2
+    \item 4
+    \item 6
+  \end{enumerate}
+
+  \subsection{解析}
+
+    如果 $ a, b $ 之中一个数为 $ 0 $, 那么所有even number都行, 选B
+
+    \begin{itemize}
+      \item $ 0^{2} + 2^{2} = 2^{2} $, $ 2 + 2 = 4 $
+      \item $ 0^{2} + 1^{2} = 1^{2} $, $ 1 + 1 = 2 $
+    \end{itemize}
+
+\section{Q7}
+
+  n is an even integer.
+
+  \begin{itemize}
+    \item \textbf{Quantity A}: The number of prime factors of n
+    \item \textbf{Quantity B}: The number of prime factors of n/2
+  \end{itemize}
+
+  \subsection{解析}
+
+    \textbf{D}?
+
+\section{Q8}
+
+  If $ n= 2 \times 3 \times 5 \times 7 \times 11 \times 13 \times 17 $,
+  then which of the following statements must be true?
+
+  \begin{enumerate}
+    \item $ n^{2} $ divisible by 600
+    \item $ n + 19 $ divisible by 19
+    \item $ \frac{n + 4}{2} $ is even
+  \end{enumerate}
+
+  \subsection{解析}
+
+    \textbf{None of the Above}:
+
+    \begin{itemize}
+      \item n's prime number凑不够 $ 600 $
+      \item n必须是19的倍数, 但是n不是
+      \item $ \frac{n + 4}{2} = \frac{n}{2} + 2 $: $ \frac{n}{2} $ 是odd;
+      odd + even 还是odd
+    \end{itemize}
+
+\section{Q9}
+
+  When the even integer n is divided by 7, the remainder is 3.
+
+  \begin{itemize}
+    \item \textbf{Quantity A}: the remainder when n is divided by 14.
+    \item \textbf{Quantity B}: 10
+  \end{itemize}
+
+  \subsection{解析}
+
+    \begin{itemize}
+      \item 本体要注意\say{even}; 如果n要是even, 其中7的数量就必须要是odd
+      \item 14里面有两个7, 把这两个7从n里提出来, 还剩一个7; $ 7 + 3 = 10 $
+    \end{itemize}
+
+\section{Q10}
+
+  x is an integer greater than 1.
+
+  \begin{itemize}
+    \item \textbf{Quantity A}: $ 3^{x + 1} $
+    \item \textbf{Quantity B}: $ 4^{x} $
+  \end{itemize}
+
+  \subsection{解析}
+
+    \begin{align*}
+      3^{x + 1} &\text{ compared to } 4^{x} \\
+      3^{x} 3 &\text{ compared to } 4^{x} \\
+      3 &\text{ compared to } \left( \frac{4}{3} \right)^{x}
+    \end{align*}
+
+    有些x导致$ < 3 $, 有些导致$ > 3 $, \textbf{答案D}
+
+\section{Q10}
+
+  If 2, 4, 6, 9 are the digits of two 2-digit integers, what is the least
+  possible positive difference between the integers?
+
+  \begin{enumerate}
+    \item 27
+    \item 27
+    \item 17
+    \item 13
+    \item 9
+  \end{enumerate}
+
+  \subsection{解析}
+
+    \begin{enumerate}
+      \item 首先排除9, 这四个数字不可能
+      \item 考虑17, 13:
+      \begin{enumerate}
+        \item 十位上两个数字最多差20 (考虑借位); 所以两个数字的十位只有两个组合
+        2 \& 4, 4 \& 6
+        \item 选取十位后尝试剩下的数字, 得到\textbf{答案13}
+      \end{enumerate}
+    \end{enumerate}
+
+\section{Q11}
+
+  If $ \left| z \right| \le 1 $, which of the following statements must be
+  true? Indicate all such statements.
+
+  \begin{enumerate}
+    \item $ z^{2} \le 1 $
+    \item $ z^{2} \le z $
+    \item $ z^{3} \le z $
+  \end{enumerate}
+
+  \subsection{解析}
+
+    \begin{equation*}
+      \left| z \right| \le 1 \to -1 \le z \le 1
+    \end{equation*}
+
+    \begin{enumerate}
+      \item \textbf{正确}: 和题的式子一样
+      \item \textbf{错误}: $ z < 0 $
+      \item \textbf{错误}: $ -1 < z < 0 $
+    \end{enumerate}
